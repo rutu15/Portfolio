@@ -11,7 +11,7 @@ const Header = () => {
   const router = useRouter();
   const [isOpen, setIsOpen] = useState<Boolean>(false);
   return (
-    <header className="flex w-full fixed bg-black justify-between items-center py-6 xl:px-32 lg:px-16 md:px-12 px-8 ">
+    <header className="flex w-full fixed background-black  justify-between items-center py-6 xl:px-32 lg:px-16 md:px-12 px-8 ">
       <div className="text-white">
         <Image
           src={Logo}

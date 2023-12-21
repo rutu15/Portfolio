@@ -1,12 +1,11 @@
-import Image from 'next/image'
-import { HomePage } from '@/components'
-import {TransitionEffect} from '@/components'
+import { TransitionEffect } from '@/components';
+import {About} from '@/components';
 
-export default function About() {
+export default function AboutUs() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between">
-       <TransitionEffect />
-     I am about
+    <main className="min-h-screen flex flex-col p-5 md:p-24">
+      <TransitionEffect />
+      <About/>
     </main>
   )
 }

@@ -8,16 +8,6 @@ const Home = () => {
   return (
     <>
       <div className="container  mx-auto flex-grow w-full h-full lg:flex justify-between items-center mt-40 md:mt-10 lg:mt-7 xl:mt-4">
-        <motion.div
-          initial={{ opacity: 0, y: -200 }}
-          animate={{ opacity: 1, y: 0 }}
-          exit={{ opacity: 0, y: 50 }}
-          transition={{ duration: 4 }}
-          className=" flex-1 lg:block sm:order-2 mb-40 lg:mb-0"
-        >
-          <HomepageImage />
-        </motion.div>
-
         <div className="flex-1 sm:order-2 md:order-1 text-center lg:text-left ">
           <h1 className="  text-white text-2xl md:text-6xl lg:text-5xl leading-tight">
             Hey, {`I'm `}
@@ -51,6 +41,15 @@ const Home = () => {
             </motion.button>
 
         </div>
+        <motion.div
+          initial={{ opacity: 0, y: -200 }}
+          animate={{ opacity: 1, y: 0 }}
+          exit={{ opacity: 0, y: 50 }}
+          transition={{ duration: 4 }}
+          className=" flex-1 lg:block sm:order-2 my-16 lg:mb-0"
+        >
+          <HomepageImage />
+        </motion.div>
       </div>
 
       <div className="md:left-5 md:bottom-5 md:w-40 w-20 h-auto  overflow-x-hidden justify-center flex items-center fixed  ">

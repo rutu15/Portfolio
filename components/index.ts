@@ -4,6 +4,7 @@ import Footer from "./Footer";
 import TransitionEffect from "./TransitionEffect";
 import Navbar from "./Navbar";
 import Contact from "./Contact";
+import About from "./About";
 
 export {
     HomePage,
@@ -11,5 +12,6 @@ export {
     Footer,
     TransitionEffect,
     Navbar,
-    Contact
+    Contact,
+    About
 }

@@ -59,7 +59,7 @@ const Navbar = ({ isOpen, setIsOpen }: NavbarProps) => {
       animate={isOpen ? 'open' : 'close'}
       initial={false}
     >
-      <div className="flex justify-between items-center w-full h-full bg-black px-8 relative">
+      <div className="flex justify-between items-center w-full h-full background-black px-8 relative">
         <div
           className="absolute cursor-pointer top-8 right-20"
           onClick={() => setIsOpen((isOpen: Boolean) => !isOpen)}
