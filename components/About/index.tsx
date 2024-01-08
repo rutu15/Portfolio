@@ -27,7 +27,7 @@ export default function About() {
       <Introduction />
 
       <div>
-        {/* <Skills /> */}
+        <Skills />
       </div>
     </div>
   );

@@ -1,4 +1,4 @@
-import type { Config } from 'tailwindcss'
+import type { Config } from 'tailwindcss';
 
 const config: Config = {
   content: [
@@ -12,15 +12,23 @@ const config: Config = {
     },
     extend: {
       animation: {
-        "spin-slow": "spin 6s linear infinite",
-    },
+        'spin-slow': 'spin 6s linear infinite',
+      },
       backgroundImage: {
-        'gradient-radial': 'radial-gradient(var(--tw-gradient-stops))',
-        'gradient-conic':
-          'conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))',
+        circularDark:
+          'repeating-radial-gradient(rgba(255,255,255,0.5) 2px,#1b1b1b 8px,#1b1b1b 120px)',
+
+        circularDarkLg:
+          'repeating-radial-gradient(rgba(255,255,255,0.5) 2px,#1b1b1b 8px,#1b1b1b 100px)',
+
+        circularDarkMd:
+          'repeating-radial-gradient(rgba(255,255,255,0.5) 2px,#1b1b1b 6px,#1b1b1b 80px)',
+
+        circularDarkSm:
+          'repeating-radial-gradient(rgba(255,255,255,0.5) 2px,#1b1b1b 4px,#1b1b1b 60px )',
       },
     },
   },
   plugins: [],
-}
-export default config
+};
+export default config;

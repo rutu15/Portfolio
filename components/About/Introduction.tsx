@@ -6,8 +6,7 @@ import { AboutUsImage, ExperienceIcon, TeamsIcon, ProjectsIcon,CircularIcon } fr
 
 export default function Introduction() {
   return (
-    <div className="lg:flex sm:mt-16 mt-2">
-        
+    <div className="lg:flex sm:mt-16 mt-2">  
     <div className="flex flex-col text-white  w-full items-center justify-center">
       <motion.div
         initial={{ opacity: 0, y: -500 }}
@@ -64,7 +63,7 @@ export default function Introduction() {
           <p className="text-xs text-gray-300">10+ Completed</p>
         </motion.div>
       </div>
-      <div className="">
+      <div className="px-6">
         <p className="text-lg text-gray-300 leading-8">
           Rutu Dodiya stands as a seasoned Front-End Developer with an
           impressive track record, boasting over 5 years of hands-on
